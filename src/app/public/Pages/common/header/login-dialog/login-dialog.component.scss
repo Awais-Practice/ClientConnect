@@ -1,8 +1,38 @@
 #mainContainer {
   .loginComponent {
-    border: 1px solid;
     width: 100%;
+    mat-form-field {
+      width: 100%;
+      height: 55px;
 
-    // dsdsds
+      mat-label {
+        color: #077efe;
+      }
+    }
+    p {
+      font-size: 12px;
+      margin-top: 10px;
+      color: rgba(0, 0, 0, 0.87);
+      a {
+        color: #077efe;
+        text-decoration: none;
+      }
+    }
+    button {
+      margin: 5px;
+    }
   }
 }
+
+//   :host ::ng-deep .mat-form-field-underline {
+//         background-color: white !important;
+//      }
+//      :host ::ng-deep .mat-focused .mat-form-field-underline .mat-form-field-ripple {
+//      background-color: white !important;
+// }
+// :host ::ng-deep input {
+//     color: white !important;
+// }
+// :host ::ng-deep input {
+//     color: white !important;
+// }
